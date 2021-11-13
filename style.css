@@ -1,0 +1,73 @@
+body{
+    font-family:'Merriweather', serif;
+    text-align: center;
+    line-height: 2rem;
+    color: #000000;
+}
+#main{
+    background-color: rgb(190, 189, 188);
+    margin: 2% 1%;
+}
+#title{
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.heading-para{
+font-size: 1.5rem;
+}
+
+img{
+    width: 50%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div{
+    background-color: #ffffff;
+    padding: 3%;
+}
+
+#img-caption{
+    color: #000000;
+    margin-top: 3%;
+    padding: 0 20%;
+    font-size: 20px;
+}
+ 
+@media screen and (max-width:600px) {
+    #main{
+    margin: 0;
+    }
+
+    #img-caption{
+        text-align: justify;
+    }
+}
+
+.info-heading{
+    font-size: 2.5rem;
+    margin: 4%;
+}
+
+ul{
+font-size: 20px;
+text-align: left;
+max-width: 800px;
+margin: auto auto 50px;
+line-height: 2;
+}
+
+#footer{
+    padding: 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
